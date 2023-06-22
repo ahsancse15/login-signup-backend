@@ -2,7 +2,7 @@ Login Signup Backend
 
 Introduction:
 
-Here we can also log in and sign up with an email verification link and expiration date.
+Here we can login and sign up with an email verification link and expiration date.
 
 Dependencies needed:
 1. Spring Boot
