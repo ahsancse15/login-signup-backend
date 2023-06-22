@@ -1,4 +1,8 @@
 Login Signup Backend
+
+Introduction:
+Here we can also log in and sign up with an email verification link and expiration date.
+
 Dependencies needed:
 1. Spring Boot
 2. Spring Security
@@ -10,8 +14,8 @@ Dependencies needed:
 
 CURL
 --------------------------------------------------------------------
-curl --location --request POST 'localhost:8080/api/v1/registration' \
---header 'Content-Type: application/json' \
+curl --location --request POST 'localhost:8080/API/v1/registration' \
+--header 'Content-Type: application/JSON \
 --data-raw '{
     "firstName": "Amigos",
     "lastName": "Code",
